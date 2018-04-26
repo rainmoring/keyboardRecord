@@ -1,48 +1,48 @@
 package main
 
 const (
-	VK_LBUTTON    uint16 = itoa //1	鼠标左键
-	VK_RBUTTON                  //2	鼠标右键
-	VK_CANCEL                   //3	Cancel
-	VK_MBUTTON                  //	4 	鼠标中键
-	VK_XBUTTON1                 //	5
-	VK_XBUTTON2                 //6
-	VK_BACK                     //8	Backspace
-	VK_TAB                      //9 	Tab
-	VK_CLEAR                    //12 	Clear
-	VK_RETURN                   //13 	Enter
-	VK_SHIFT                    //16 	Shift
-	VK_CONTROL                  //17 	Ctrl
-	VK_MENU                     //18 	Alt
-	_PAUSE                      //19 	Pause
-	VK_CAPITAL                  //20 	Caps Lock
-	VK_KANA                     //21
-	VK_HANGUL                   //21
-	VK_JUNJA                    //23
-	VK_FINAL                    //24
-	VK_HANJA                    //25
-	VK_KANJI                    //25*
-	VK_ESCAPE                   //27 	Esc
-	VK_CONVERT                  //28
-	VK_NONCONVERT               //29
-	VK_ACCEPT                   //30
-	VK_MODECHANGE               //31
-	VK_SPACE                    //32 	Space
-	VK_PRIOR                    //33 	Page Up
-	VK_NEXT                     //34 	Page Down
-	VK_END                      //35 	End
-	VK_HOME                     //36 	Home
-	VK_LEFT                     //37 	Left Arrow
-	VK_UP                       //38 	Up Arrow
-	VK_RIGHT                    //39 	Right Arrow
-	VK_DOWN                     //40 	Down Arrow
-	VK_SELECT                   //41 	Select
-	VK_PRINT                    //42 	Print
-	VK_EXECUTE                  //43 	Execute
-	VK_SNAPSHOT                 //44 	Snapshot
-	VK_INSERT                   //45 	Insert
-	VK_DELETE                   //46 	Delete
-	VK_HELP                     //47 	Help
+	VK_LBUTTON    int = 1 + iota //1	鼠标左键
+	VK_RBUTTON                   //2	鼠标右键
+	VK_CANCEL                    //3	Cancel
+	VK_MBUTTON                   //	4 	鼠标中键
+	VK_XBUTTON1                  //	5
+	VK_XBUTTON2                  //6
+	VK_BACK                      //8	Backspace
+	VK_TAB                       //9 	Tab
+	VK_CLEAR                     //12 	Clear
+	VK_RETURN                    //13 	Enter
+	VK_SHIFT                     //16 	Shift
+	VK_CONTROL                   //17 	Ctrl
+	VK_MENU                      //18 	Alt
+	_PAUSE                       //19 	Pause
+	VK_CAPITAL                   //20 	Caps Lock
+	VK_KANA                      //21
+	VK_HANGUL                    //21
+	VK_JUNJA                     //23
+	VK_FINAL                     //24
+	VK_HANJA                     //25
+	VK_KANJI                     //25*
+	VK_ESCAPE                    //27 	Esc
+	VK_CONVERT                   //28
+	VK_NONCONVERT                //29
+	VK_ACCEPT                    //30
+	VK_MODECHANGE                //31
+	VK_SPACE                     //32 	Space
+	VK_PRIOR                     //33 	Page Up
+	VK_NEXT                      //34 	Page Down
+	VK_END                       //35 	End
+	VK_HOME                      //36 	Home
+	VK_LEFT                      //37 	Left Arrow
+	VK_UP                        //38 	Up Arrow
+	VK_RIGHT                     //39 	Right Arrow
+	VK_DOWN                      //40 	Down Arrow
+	VK_SELECT                    //41 	Select
+	VK_PRINT                     //42 	Print
+	VK_EXECUTE                   //43 	Execute
+	VK_SNAPSHOT                  //44 	Snapshot
+	VK_INSERT                    //45 	Insert
+	VK_DELETE                    //46 	Delete
+	VK_HELP                      //47 	Help
 	VK_0
 	VK_1
 	VK_2
