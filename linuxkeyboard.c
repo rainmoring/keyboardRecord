@@ -1,4 +1,6 @@
-include "_fgo_export.h"
+// +build !windows
+
+include "_ego_export.h"
 include "stdio.h"
 
 int callback(){
