@@ -3,14 +3,16 @@ package main
 var mapcode map[int]string
 
 const (
-	VK_LBUTTON int = 0 + iota
+	VK_LBUTTON int = 1 + iota
 	VK_RBUTTON
 	VK_CANCEL
 	VK_MBUTTON
 	VK_XBUTTON1
 	VK_XBUTTON2
+	_
 	VK_BACK
 	VK_TAB
+	_
 	VK_CLEAR
 	VK_RETURN
 	VK_SHIFT
@@ -238,14 +240,15 @@ func mapinit() map[int]string {
 		46:  "VK_DELETE",   //Delete
 		47:  "VK_HELP",     //Help
 		48:  "VK_0",
-		49:  "VK_2",
-		50:  "VK_3",
-		51:  "VK_4",
-		52:  "VK_5",
-		53:  "VK_6",
-		54:  "VK_7",
-		55:  "VK_8",
-		56:  "VK_9",
+		49:  "VK_1",
+		50:  "VK_2",
+		51:  "VK_3",
+		52:  "VK_4",
+		53:  "VK_5",
+		54:  "VK_6",
+		55:  "VK_7",
+		56:  "VK_8",
+		57:  "VK_9",
 		65:  "VK_A",
 		66:  "VK_B",
 		67:  "VK_C",

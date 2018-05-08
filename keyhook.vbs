@@ -1,2 +1,3 @@
-currentpath = createobject("Scripting.FileSystemObject").GetFile(Wscript.ScriptFullName).ParentFolder.Path &"keyhook.bat"
-CreateObject("WScript.Shell").Run currentpath,0 
+currentpath = createobject("Scripting.FileSystemObject").GetFile(Wscript.ScriptFullName).ParentFolder.Path
+set ws=WScript.CreateObject("WScript.Shell")
+ws.Run currentpath &"\keyhook.bat",0
